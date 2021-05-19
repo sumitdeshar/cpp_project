@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -8,6 +9,6 @@ int main()
     cout<<"Enter the height of triangle : \n";
     cin>>height;
     area=0.5*(base*height);
-    cout<<"the are of triangle is :"<<area;
+    cout<<"the area of triangle is :"<<area;
     return(0);
 }
