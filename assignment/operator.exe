@@ -28685,8 +28685,6 @@ int main(){
     cout<<number<<endl;
 
 
-    return 0;
-
 
 
     cout<<"4)The bitwise AND(a&b)="<<(a&b)<<endl;
@@ -28701,4 +28699,5 @@ int main(){
 
         cout<<"5)a is negative."<<endl;
     }
+    return 0;
 }

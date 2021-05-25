@@ -51,8 +51,6 @@ int main(){
     cout<<number<<endl;                           
         // here '? :' is ternary operator, used instead of if else.
 
-    return 0;
-
     // Bitwise operator perform operations on integer data at the individual bit-level
     
     cout<<"4)The bitwise AND(a&b)="<<(a&b)<<endl; 
@@ -67,4 +65,5 @@ int main(){
         // here 'if-else' is conditional operator.
         cout<<"5)a is negative."<<endl;
     }
+    return 0;
 }
