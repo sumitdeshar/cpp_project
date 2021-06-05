@@ -8,15 +8,15 @@ struct student
 };
 int main()
 {
-    student a;
+    student s;
     cout<<"Enter your name:";
-    cin>>a.name;
+    cin>>s.name;
     cout<<"Enter your roll:";
-    cin>>a.roll;
+    cin>>s.roll;
     cout<<"Enter your address:";
-    cin>>a.address;
-    cout << "Name: " << a.name << endl;
-    cout << "Roll: " << a.roll << endl;
-    cout << "Address: " << a.address << endl;
+    cin>>s.address;
+    cout << "Name: " << s.name << endl;
+    cout << "Roll: " << s.roll << endl;
+    cout << "Address: " << s.address << endl;
 return 0;
 }
